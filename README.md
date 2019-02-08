@@ -32,15 +32,15 @@ function convertToArrayOfLength14(bytes memory data) public pure returns (uint25
 
 - Explanation:
 
- 1. Prepare 14 slots to store output.
+   1. Prepare 14 slots to store output.
   
-   - declare an Array of size 14 and element-type is unit256
+      - declare an Array of size 14 and element-type is unit256
    
- 2. Iterate through the array in chunks of 32 (32 Bytes = 256 bits)
+   2. Iterate through the array in chunks of 32 (32 Bytes = 256 bits)
   
-  - For-each chunk of output:
-    - load the equivalent length of input (data chunk)
-    - store the loaded value to output chunk
+      - For-each chunk of output:
+         - load the equivalent length of input (data chunk)
+         - store the loaded value to output chunk
     
   - Repeat till end of output chunk length
   
