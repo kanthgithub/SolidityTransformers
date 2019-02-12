@@ -6,6 +6,7 @@ contract DynamicArrayFromInteger {
 	//The opcode causes the entire contract execution to return at that point, 
 	//with the return value that you designate in memory.
 	// The Solidity return just pops off the call frame and returns to the calling function
+	//https://ethereum.stackexchange.com/questions/30192/problem-using-created-array-from-assembly?rq=1
 
     function f(uint a, uint b) pure public returns (uint[] memory memOffset) {
         assembly {
