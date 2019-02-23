@@ -47,6 +47,8 @@ function convertToArrayOfLength14(bytes memory data) public pure returns (uint25
  3. Now, we have transformed the data input to chunks of output (Array) 
 
 
+## Struct to Bytes:
 
+   - https://ethereum.stackexchange.com/questions/11246/convert-struct-to-bytes-in-solidity
 
 
